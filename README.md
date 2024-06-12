@@ -1,6 +1,5 @@
 # Yahoo_Signup_Automation
 Software Automation Testing of signing up Yahoo email using the verification from Whatsapp Web  and verifiying the creation of the Yahoo email
-# Yahoo Signup Automation
 
 ## Overview
 This project automates the process of signing up for a Yahoo email account using verification from WhatsApp Web. It includes Selenium-based automation scripts, and tests implemented using pytest.
@@ -20,6 +19,20 @@ Before running the automation script, ensure you meet the following prerequisite
 3. **WhatsApp Number:**
    - Update the Excel file (`Mohamed_data.xlsx`) under the `phone` column with your own WhatsApp number.
 
+
+### Dependencies
+Ensure you have the following dependencies installed:
+
+- `selenium`
+- `webdriver_manager`
+- `pytest`
+- `openpyxl`
+
+You can install these dependencies using:
+
+```bash
+pip install selenium webdriver_manager pytest openpyxl
+
 ## Steps to Run the Script
 
 1. **Open WhatsApp Web:**
@@ -34,6 +47,29 @@ Before running the automation script, ensure you meet the following prerequisite
      5. Refresh WhatsApp Web to ensure the message is deleted and verify by checking the absence of the copied code.
      6. Complete the Yahoo signup process by entering the verification code.
      7. Confirm that the Yahoo email is created by checking the presence of the user's name instead of the 'sign up' button.
+
+
+## Steps to Run the Script
+
+### Method 1: Using Command Line
+
+1. **Open WhatsApp Web:**
+   - Open WhatsApp Web and ensure it is correctly loaded and you are logged in.
+
+2. **Run the Script:**
+   - Execute the test script by running the following command in your terminal:
+     ```bash
+     pytest
+     ```
+
+### Method 2: Using PyCharm
+
+1. **Open WhatsApp Web:**
+   - Open WhatsApp Web and ensure it is correctly loaded and you are logged in.
+
+2. **Run the Script:**
+   - Open the project in PyCharm.
+   - Right-click on `tests/test_yahoo_signup.py` and select `Run pytest in test_yahoo_signup.py`.
 
 ## Learning Points
 
@@ -70,9 +106,14 @@ This project involves several key learning points:
 7. **Randomization and Human-Like Interactions:**
    - Adding random delays and clicks to mimic human interactions and avoid detection.
 
-## Running the Tests
 
-To run the tests, execute the following command in your terminal:
+## Video Demonstration
+To see how the automation should work, you can check out the video [yahoo_email_automation.mp4](./yahoo_email_automation.mp4).
 
-```bash
-pytest
+## Conclusion
+This project demonstrates a comprehensive approach to automating a signup process with real-world applications, including handling multi-step verifications and maintaining sessions. It is a practical example of using Python for web automation and testing. For a visual demonstration, you can watch the [yahoo_email_automation.mp4](./yahoo_email_automation.mp4) video.
+
+## Disclaimer
+This project is my own work. Please do not copy it and claim it as your own. If you find it helpful, feel free to learn from it and adapt it to your own needs, but give credit where it's due.
+
+
