@@ -111,7 +111,7 @@ This project involves several key learning points:
 To see how the automation should work, you can check out the video [yahoo_email_automation.mp4](./yahoo_email_automation.mp4).
 
 ## Conclusion
-This project demonstrates a comprehensive approach to automating a signup process with real-world applications, including handling multi-step verifications and maintaining sessions. It is a practical example of using Python for web automation and testing. For a visual demonstration, you can watch the [yahoo_email_automation.mp4](./yahoo_email_automation.mp4) video.
+This project demonstrates a comprehensive approach to automating a signup process with real-world applications, including handling multi-step verifications and maintaining sessions. It is a practical example of using Python for web automation and testing.
 
 ## Disclaimer
 This project is my own work. Please do not copy it and claim it as your own. If you find it helpful, feel free to learn from it and adapt it to your own needs, but give credit where it's due.
