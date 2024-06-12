@@ -49,7 +49,7 @@ pip install selenium webdriver_manager pytest openpyxl
      7. Confirm that the Yahoo email is created by checking the presence of the user's name instead of the 'sign up' button.
 
 
-## Steps to Run the Script
+## Steps to execute the test script
 
 ### Method 1: Using Command Line
 
