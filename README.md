@@ -19,7 +19,7 @@ Before running the automation script, ensure you meet the following prerequisite
 3. **WhatsApp Number:**
    - Update the Excel file (`Mohamed_data.xlsx`) under the `phone` column with your own WhatsApp number.
 
-
+```markdown
 ### Dependencies
 Ensure you have the following dependencies installed:
 
