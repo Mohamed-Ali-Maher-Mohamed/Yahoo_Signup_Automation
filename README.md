@@ -77,7 +77,7 @@ This project involves several key learning points:
 
 1. **Web Scraping and Automation:**
    - Using Selenium for web scraping and automating web interactions.
-   - Techniques to wait for elements, find elements by various locators, and perform mouse operations as well as pages navigations.
+   - Techniques to wait for elements, find elements by various locators, and perform mouse operations as well as web pages navigations.
 
 2. **Headless Browser Operation:**
    - Running browser automation in headless mode for efficiency and bypassing detection.
